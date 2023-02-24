@@ -15,5 +15,3 @@
  * @since Univeristy_Theme 1.0
  */
 
-
-
