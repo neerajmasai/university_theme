@@ -15,3 +15,13 @@
  * @since Univeristy_Theme 1.0
  */
 
+// The famous WordPress "Loop".
+while( have_posts() ) {
+    the_post();
+    ?>
+    <a href="<?php permalink_link(); ?>"><h1><?php the_title(); ?></h1></a>
+    <p><?php the_excerpt(); ?></p>
+    <hr>
+    <?php
+}
+
